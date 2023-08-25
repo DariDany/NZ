@@ -28,6 +28,10 @@
         font-size: 13px;
         line-height: 24px;
         color: #FFFFFF;
+        transition: 0.3s color;
+        &:hover, &:focus{
+            color:#DE8091;
+        }
     }
     &__menu-container{
         min-width: 219px;

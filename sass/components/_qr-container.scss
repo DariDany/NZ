@@ -1,6 +1,12 @@
 .qr-container{
     &__icon{
         margin-left: 20px;
+        transition: 0.5s width height;
+        &:hover, &:focus{
+            width: 43px;
+            height: 43px;
+            margin-left: 17px;
+        }
     }
     &__text-box{
         width: 172px;

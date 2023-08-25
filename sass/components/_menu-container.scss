@@ -5,6 +5,14 @@
         flex-direction: row;
         gap: 0 16px;
         align-items: center;
+        transition: 0.3s color;
+
+        &:hover, &:focus{
+            color:#DE8091;
+            &__img-sidebar{
+                color:#DE8091;
+            }
+        }
     }
     &__item--support{
         height: 80px;
@@ -17,6 +25,12 @@
         align-items: center;
         gap: 20px;
         text-align: left;
+        transition: 0.3s color;
+        transition: 0.3s border;
+        &:hover, &:focus{
+            color:#DE8091;
+            border: 1px solid #DE8091;
+        }
     }
 }
 

@@ -7,6 +7,10 @@
         justify-items: center;
         gap: 38px 0;
         padding: 10px;
+        transition: 0.5s background;
+        &:hover, &:focus{
+            background-color: rgba(103, 174, 90, 0.264);
+        }
     }
 }
 @media (min-width: 720px) and (max-width: 1279px){

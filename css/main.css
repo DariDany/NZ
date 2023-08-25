@@ -334,6 +334,10 @@ a {
   text-align: center;
   padding: 2px 8px;
   flex-shrink: 1;
+  transition: 0.3s box-shadow;
+}
+.birthday__date:hover, .birthday__date:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.41), 0 0 15px rgba(0, 0, 0, 0.41), 0 0 25px rgba(0, 0, 0, 0.41), 0 0 35px rgba(0, 0, 0, 0.41);
 }
 .birthday__name {
   max-width: 234px;
@@ -341,6 +345,10 @@ a {
   font-size: 13px;
   line-height: 24px;
   color: #000000;
+  transition: 0.3s color;
+}
+.birthday__name:hover, .birthday__name:focus {
+  color: #FFFFFF;
 }
 
 .birthdays-container__birthday {
@@ -411,6 +419,10 @@ a {
   justify-items: center;
   gap: 38px 0;
   padding: 10px;
+  transition: 0.5s background;
+}
+.isuo-container__item_main:hover, .isuo-container__item_main:focus {
+  background-color: rgba(103, 174, 90, 0.264);
 }
 
 @media (min-width: 720px) and (max-width: 1279px) {
@@ -500,6 +512,10 @@ a {
 .item--support__icon {
   font-size: 40px;
   margin: 0;
+  transition: 0.3s color;
+}
+.item--support__icon:hover, .item--support__icon:focus {
+  color: #DE8091;
 }
 
 @media (min-width: 720px) and (max-width: 1279px) {
@@ -532,6 +548,13 @@ a {
   flex-direction: row;
   gap: 0 16px;
   align-items: center;
+  transition: 0.3s color;
+}
+.menu-container__item:hover, .menu-container__item:focus {
+  color: #DE8091;
+}
+.menu-container__item:hover__img-sidebar, .menu-container__item:focus__img-sidebar {
+  color: #DE8091;
 }
 .menu-container__item--support {
   height: 80px;
@@ -544,6 +567,12 @@ a {
   align-items: center;
   gap: 20px;
   text-align: left;
+  transition: 0.3s color;
+  transition: 0.3s border;
+}
+.menu-container__item--support:hover, .menu-container__item--support:focus {
+  color: #DE8091;
+  border: 1px solid #DE8091;
 }
 
 @media (min-width: 720px) and (max-width: 1279px) {
@@ -568,6 +597,10 @@ a {
   justify-items: center;
   padding: 10px;
   gap: 24px 0;
+  transition: 0.5s background;
+}
+.nz-container__item_main:hover, .nz-container__item_main:focus {
+  background: #dfeafd;
 }
 
 @media (min-width: 720px) and (max-width: 1279px) {
@@ -604,6 +637,12 @@ a {
 
 .qr-container__icon {
   margin-left: 20px;
+  transition: 0.5s width height;
+}
+.qr-container__icon:hover, .qr-container__icon:focus {
+  width: 43px;
+  height: 43px;
+  margin-left: 17px;
 }
 .qr-container__text-box {
   width: 172px;
@@ -620,6 +659,10 @@ a {
   flex-direction: row;
   align-items: center;
   gap: 0 8px;
+  transition: 0.3s text-shadow;
+}
+.text-box__item:hover, .text-box__item:focus {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.492), 0 0 20px rgba(255, 255, 255, 0.492), 0 0 30px rgba(255, 255, 255, 0.492), 0 0 40px rgba(255, 255, 255, 0.492);
 }
 
 .title:first-child {
@@ -657,6 +700,10 @@ a {
   width: 132px;
   height: 24px;
   margin-left: 24px;
+  transition: 0.3s border-bottom;
+}
+.user__name:hover, .user__name:focus {
+  border-bottom: 2px solid #000000;
 }
 
 @media (min-width: 720px) and (max-width: 1279px) {
@@ -873,6 +920,12 @@ a {
   line-height: 72px;
   margin-bottom: 24px;
   margin-top: 72px;
+  transition: 0.5s -webkit-text-decoration;
+  transition: 0.5s text-decoration;
+  transition: 0.5s text-decoration, 0.5s -webkit-text-decoration;
+}
+.main__title:hover, .main__title:focus {
+  text-decoration: underline;
 }
 .main__subtitle {
   font-size: 20px;
@@ -899,6 +952,10 @@ a {
   justify-items: center;
   gap: 24px 0;
   padding: 10px;
+  transition: 0.5s background;
+}
+.main__ekyrs-container:hover, .main__ekyrs-container:focus {
+  background-color: rgba(222, 128, 145, 0.262);
 }
 
 @media (min-width: 720px) and (max-width: 1279px) {
@@ -968,6 +1025,10 @@ a {
   font-size: 13px;
   line-height: 24px;
   color: #FFFFFF;
+  transition: 0.3s color;
+}
+.sidebar__logo-text:hover, .sidebar__logo-text:focus {
+  color: #DE8091;
 }
 .sidebar__menu-container {
   min-width: 219px;

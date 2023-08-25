@@ -2,6 +2,10 @@
     &__icon{
         font-size: 40px;
         margin: 0;
+        transition: 0.3s color;
+        &:hover, &:focus{
+            color:#DE8091;
+        }
     }
 }
 

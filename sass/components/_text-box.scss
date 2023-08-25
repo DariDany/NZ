@@ -6,5 +6,9 @@
         flex-direction: row;
         align-items: center;
         gap: 0 8px;
+        transition: 0.3s text-shadow;
+        &:hover, &:focus{
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.492),0 0 20px rgba(255, 255, 255, 0.492),0 0 30px rgba(255, 255, 255, 0.492),0 0 40px rgba(255, 255, 255, 0.492);
+        }
     }
 }

@@ -11,6 +11,10 @@
         text-align: center;
         padding: 2px 8px;
         flex-shrink: 1;
+        transition: 0.3s box-shadow;
+        &:hover, &:focus{
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.41),0 0 15px rgba(0, 0, 0, 0.41),0 0 25px rgba(0, 0, 0, 0.41),0 0 35px rgba(0, 0, 0, 0.41);
+        }
     }
     &__name{
         max-width: 234px;
@@ -18,5 +22,9 @@
         font-size: 13px;
         line-height: 24px;
         color: #000000;
+        transition: 0.3s color;
+        &:hover, &:focus{
+            color: #FFFFFF;
+        }
     }
 }
